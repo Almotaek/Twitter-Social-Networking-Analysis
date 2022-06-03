@@ -10,16 +10,9 @@ from tweepy import NotFound, Unauthorized, HTTPException, BadRequest, Forbidden,
 class TwitterRelationships():
     def __init__(self):
         # TWITTER AUTHINTECHATION:
-
-        # Developer account 1
-        auth = tweepy.OAuthHandler("6Bz6V1FswA2iDO6wORTINKCoU", "eqi4zx1ZoH29zu41rERavpS0DDFfrRLzyj9t2a1fWbkCKxmCCs")
-        auth.set_access_token("1342451033243578368-TT74eQuUHxOpXTHOjAqSzsd5GZf7Yv",
-                              "Mai6jQSZIHjkwUnF3xDFeNznBoW3QTQa4OY4YDAAjhTg8")
-
-        # Developer account 2
-        # auth = tweepy.OAuthHandler("cE7aStuiYbgBm2AOLJzM2sWky", "bm3PrPslXDX5nX223D7R9liK4fkNY9RtpsuTKW3uiv1AuNy3S9")
-        # auth.set_access_token("1491249812678877191-Lb5Ir1zrbg79GcjtwHLjvIbHpF7JnJ",
-        #                       "CCaAQsaYQHEsGEBFkLcWzKvNhcY0FgrWPMMwNvyxrbDx0")
+        auth = tweepy.OAuthHandler("", "")
+        auth.set_access_token("",
+                              "")
 
 
         self.path = "C://Users//User//Desktop//TheBaltimoreProject//Useful Info//Test9.xlsx"
